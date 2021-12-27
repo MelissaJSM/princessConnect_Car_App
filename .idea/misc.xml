@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Administrator/Documents/pirconevigate - 12-24 back/app/src/main/res/layout/activity_intro.xml" value="0.553125" />
+        <entry key="..\:/Users/Administrator/Documents/pirconevigate - 12-24 back/app/src/main/res/layout/activity_karyl_3star.xml" value="0.553125" />
+        <entry key="..\:/Users/Administrator/Documents/pirconevigate - 12-24 back/app/src/main/res/layout/activity_kokkoro_3star.xml" value="0.553125" />
+        <entry key="..\:/Users/Administrator/Documents/pirconevigate - 12-24 back/app/src/main/res/layout/activity_main.xml" value="0.553125" />
+        <entry key="..\:/Users/Administrator/Documents/pirconevigate - 12-24 back/app/src/main/res/layout/activity_main_karyl.xml" value="0.553125" />
+        <entry key="..\:/Users/Administrator/Documents/pirconevigate - 12-24 back/app/src/main/res/layout/activity_main_kokkoro.xml" value="0.553125" />
+        <entry key="..\:/Users/Administrator/Documents/pirconevigate - 12-24 back/app/src/main/res/layout/activity_music_player.xml" value="0.553125" />
+        <entry key="..\:/Users/Administrator/Documents/pirconevigate - 12-24 back/app/src/main/res/layout/activity_peco.xml" value="0.553125" />
+        <entry key="..\:/Users/Administrator/Documents/pirconevigate - 12-24 back/app/src/main/res/layout/activity_peco3_star.xml" value="0.553125" />
+        <entry key="..\:/Users/Administrator/Documents/pirconevigate - 12-24 back/app/src/main/res/layout/device_list.xml" value="0.553125" />
+        <entry key="..\:/Users/Administrator/Documents/pirconevigate - 12-24 back/app/src/main/res/layout/device_name.xml" value="0.3734375" />
+        <entry key="..\:/Users/Administrator/Documents/pirconevigate - git/app/src/main/res/layout/activity_main_kokkoro.xml" value="0.5494791666666666" />
+        <entry key="..\:/Users/Administrator/Documents/pirconevigate/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3463541666666667" />
+        <entry key="..\:/Users/Administrator/Documents/pirconevigate/app/src/main/res/drawable/kokkoro_idle_speak.xml" value="0.565625" />
+        <entry key="..\:/Users/Administrator/Documents/pirconevigate/app/src/main/res/layout/activity_intro.xml" value="0.75" />
+        <entry key="..\:/Users/Administrator/Documents/pirconevigate/app/src/main/res/layout/activity_karyl_3star.xml" value="0.5317028985507246" />
+        <entry key="..\:/Users/Administrator/Documents/pirconevigate/app/src/main/res/layout/activity_kokkoro_3star.xml" value="0.2672239108409321" />
+        <entry key="..\:/Users/Administrator/Documents/pirconevigate/app/src/main/res/layout/activity_main.xml" value="0.5494791666666666" />
+        <entry key="..\:/Users/Administrator/Documents/pirconevigate/app/src/main/res/layout/activity_main_karyl.xml" value="0.5494791666666666" />
+        <entry key="..\:/Users/Administrator/Documents/pirconevigate/app/src/main/res/layout/activity_main_kokkoro.xml" value="0.6855100714749838" />
+        <entry key="..\:/Users/Administrator/Documents/pirconevigate/app/src/main/res/layout/activity_music_player.xml" value="0.2672239108409321" />
+        <entry key="..\:/Users/Administrator/Documents/pirconevigate/app/src/main/res/layout/activity_peco.xml" value="0.2672239108409321" />
+        <entry key="..\:/Users/Administrator/Documents/pirconevigate/app/src/main/res/layout/activity_peco3_star.xml" value="0.5494791666666666" />
+        <entry key="..\:/Users/Administrator/Documents/pirconevigate/app/src/main/res/layout/device_list.xml" value="0.5494791666666666" />
+        <entry key="..\:/Users/Administrator/Documents/pirconevigate/app/src/main/res/layout/device_name.xml" value="0.5494791666666666" />
+        <entry key="..\:/pirconevigate/app/src/main/res/drawable/bt_auto.xml" value="0.3411458333333333" />
+        <entry key="..\:/pirconevigate/app/src/main/res/drawable/btn_balloon_a.xml" value="0.3411458333333333" />
+        <entry key="..\:/pirconevigate/app/src/main/res/drawable/btn_balloon_aa.xml" value="1.0595703125" />
+        <entry key="..\:/pirconevigate/app/src/main/res/drawable/btn_balloon_b.xml" value="0.3411458333333333" />
+        <entry key="..\:/pirconevigate/app/src/main/res/drawable/btn_balloon_c.xml" value="0.3411458333333333" />
+        <entry key="..\:/pirconevigate/app/src/main/res/drawable/btn_balloon_d.xml" value="0.3411458333333333" />
+        <entry key="..\:/pirconevigate/app/src/main/res/drawable/btn_balloon_e.xml" value="1.052734375" />
+        <entry key="..\:/pirconevigate/app/src/main/res/drawable/btn_balloon_f.xml" value="1.052734375" />
+        <entry key="..\:/pirconevigate/app/src/main/res/drawable/btn_balloon_g.xml" value="1.052734375" />
+        <entry key="..\:/pirconevigate/app/src/main/res/drawable/btn_menu_setting.xml" value="1.0595703125" />
+        <entry key="..\:/pirconevigate/app/src/main/res/drawable/fab_1star.xml" value="0.6484375" />
+        <entry key="..\:/pirconevigate/app/src/main/res/drawable/fab_3star.xml" value="0.6484375" />
+        <entry key="..\:/pirconevigate/app/src/main/res/drawable/fab_button.xml" value="1.0595703125" />
+        <entry key="..\:/pirconevigate/app/src/main/res/drawable/ic_launcher_background.xml" value="0.64453125" />
+        <entry key="..\:/pirconevigate/app/src/main/res/layout/activity_bt_standby.xml" value="0.5" />
+        <entry key="..\:/pirconevigate/app/src/main/res/layout/activity_btplay.xml" value="0.75" />
+        <entry key="..\:/pirconevigate/app/src/main/res/layout/activity_karyl3star.xml" value="0.6142578125" />
+        <entry key="..\:/pirconevigate/app/src/main/res/layout/activity_karyl_3star.xml" value="0.75" />
+        <entry key="..\:/pirconevigate/app/src/main/res/layout/activity_kokkoro_3star.xml" value="0.67" />
+        <entry key="..\:/pirconevigate/app/src/main/res/layout/activity_main.xml" value="0.5024038461538461" />
+        <entry key="..\:/pirconevigate/app/src/main/res/layout/activity_main_karyl.xml" value="0.75" />
+        <entry key="..\:/pirconevigate/app/src/main/res/layout/activity_main_kokkoro.xml" value="0.6865509761388287" />
+        <entry key="..\:/pirconevigate/app/src/main/res/layout/activity_music_player.xml" value="0.5453125" />
+        <entry key="..\:/pirconevigate/app/src/main/res/layout/activity_peco.xml" value="0.75" />
+        <entry key="..\:/pirconevigate/app/src/main/res/layout/activity_peco3_star.xml" value="0.6142578125" />
+        <entry key="..\:/pirconevigate/app/src/main/res/layout/activitymain.xml" value="0.67" />
+        <entry key="..\:/pirconevigate/app/src/main/res/layout/device_list.xml" value="0.32760416666666664" />
+        <entry key="..\:/pirconevigate/app/src/main/res/layout/device_name.xml" value="0.32760416666666664" />
+        <entry key="..\:/pirconevigate/app/src/main/res/layout/fragment_btmusicplayer.xml" value="0.5453125" />
+        <entry key="..\:/pirconevigate/app/src/main/res/layout/fragment_dial.xml" value="0.5453125" />
+        <entry key="..\:/pirconevigate/app/src/main/res/layout/fragment_karyl.xml" value="0.325" />
+        <entry key="..\:/pirconevigate/app/src/main/res/layout/fragment_kokkoro.xml" value="0.9543726235741445" />
+        <entry key="..\:/pirconevigate/app/src/main/res/layout/fragment_pecorinne.xml" value="0.325" />
+        <entry key="..\:/pirconevigate/app/src/main/res/layout/fragment_standby.xml" value="0.5489583333333333" />
+        <entry key="..\:/pirconevigate/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.64453125" />
+        <entry key="..\:/pirconevigate/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.64453125" />
+        <entry key="..\:/pri/pirconevigate/app/src/main/res/drawable/ic_launcher_background.xml" value="0.18229166666666666" />
+        <entry key="..\:/pri/pirconevigate/app/src/main/res/layout/activity_main.xml" value="0.16197916666666667" />
+        <entry key="..\:/pri/pirconevigate/app/src/main/res/layout/activity_main_kokkoro.xml" value="0.5" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

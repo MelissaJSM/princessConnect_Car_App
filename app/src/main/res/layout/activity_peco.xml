@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainPecoActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <FrameLayout
+        android:id="@+id/character_stage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/character_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_500010"/>
+
+        <ImageButton
+            android:id="@+id/btxml_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="1dp"
+            android:background="#00ff0000"
+            app:srcCompat="@drawable/btn_menu_setting" />
+
+        <ImageView
+            android:id="@+id/menu_main"
+            android:layout_width="189dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="56dp"
+            app:srcCompat="@drawable/menu_main" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|top">
+
+            <ImageView
+                android:id="@+id/time_table"
+                android:layout_width="310dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/time_table" />
+
+            <ImageView
+                android:id="@+id/time_colon1"
+                android:layout_width="18dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="14dp"
+                app:srcCompat="@drawable/time_p_colon" />
+
+            <ImageView
+                android:id="@+id/time_colon2"
+                android:layout_width="18dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="245dp"
+                android:layout_marginTop="14dp"
+                app:srcCompat="@drawable/time_p_colon" />
+
+
+            <ImageView
+                android:id="@+id/time_month10"
+                android:layout_width="18dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="14dp"
+                app:srcCompat="@drawable/font_p_0" />
+
+            <ImageView
+                android:id="@+id/time_month0"
+                android:layout_width="18dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="14dp"
+                app:srcCompat="@drawable/font_p_0" />
+
+            <ImageView
+                android:id="@+id/font_p_month"
+                android:layout_width="18dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="42dp"
+                android:layout_marginTop="14dp"
+                app:srcCompat="@drawable/font_p_month" />
+
+
+            <ImageView
+                android:id="@+id/time_day10"
+                android:layout_width="18dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="14dp"
+                app:srcCompat="@drawable/font_p_0" />
+
+            <ImageView
+                android:id="@+id/time_day0"
+                android:layout_width="18dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="14dp"
+                app:srcCompat="@drawable/font_p_0" />
+
+            <ImageView
+                android:id="@+id/font_p_day"
+                android:layout_width="18dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="92dp"
+                android:layout_marginTop="14dp"
+                app:srcCompat="@drawable/font_p_day" />
+
+
+            <ImageView
+                android:id="@+id/font_week"
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="14dp"
+                app:srcCompat="@drawable/font_week" />
+
+
+            <ImageView
+                android:id="@+id/time_hour10"
+                android:layout_width="18dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="14dp"
+                app:srcCompat="@drawable/font_p_0" />
+
+            <ImageView
+                android:id="@+id/time_hour0"
+                android:layout_width="18dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="185dp"
+                android:layout_marginTop="14dp"
+                app:srcCompat="@drawable/font_p_0" />
+
+
+            <ImageView
+                android:id="@+id/time_min10"
+                android:layout_width="18dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="215dp"
+                android:layout_marginTop="14dp"
+                app:srcCompat="@drawable/font_p_0" />
+
+            <ImageView
+                android:id="@+id/time_min0"
+                android:layout_width="18dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="14dp"
+                app:srcCompat="@drawable/font_p_0" />
+
+
+            <ImageView
+                android:id="@+id/time_sec10"
+                android:layout_width="18dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="14dp"
+                app:srcCompat="@drawable/font_p_0" />
+
+            <ImageView
+                android:id="@+id/time_sec0"
+                android:layout_width="18dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="275dp"
+                android:layout_marginTop="14dp"
+                app:srcCompat="@drawable/font_p_0" />
+        </FrameLayout>
+
+
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/char_peco" />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="110dp"
+            app:srcCompat="@drawable/balloon_a_think_p" />
+
+        <ImageButton
+            android:id="@+id/btxml_player"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="100dp"
+            android:background="#00ff0000"
+            app:srcCompat="@drawable/btn_balloon_p_a" />
+
+        <ImageButton
+            android:id="@+id/btxml_genie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="160dp"
+            android:background="#00ff0000"
+            app:srcCompat="@drawable/btn_balloon_p_aa" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            android:layout_marginRight="230dp"
+            android:layout_marginTop="110dp"
+            app:srcCompat="@drawable/balloon_e_think_p" />
+
+        <ImageButton
+            android:id="@+id/btxml_youtube"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            android:layout_marginRight="120dp"
+            android:layout_marginTop="100dp"
+            android:background="#00ff0000"
+            app:srcCompat="@drawable/btn_balloon_p_e" />
+
+        <ImageButton
+            android:id="@+id/btxml_twitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            android:layout_marginRight="150dp"
+            android:layout_marginTop="160dp"
+            android:background="#00ff0000"
+            app:srcCompat="@drawable/btn_balloon_p_f" />
+
+        <ImageButton
+            android:id="@+id/btxml_bluetooth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="50dp"
+            android:background="#00ff0000"
+            app:srcCompat="@drawable/btn_balloon_p_b" />
+
+        <ImageButton
+            android:id="@+id/btxml_navi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="85dp"
+            android:layout_marginTop="50dp"
+            android:background="#00ff0000"
+            app:srcCompat="@drawable/btn_balloon_p_c" />
+
+        <ImageButton
+            android:id="@+id/btxml_internet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="45dp"
+            android:background="#00ff0000"
+            app:srcCompat="@drawable/btn_balloon_p_d" />
+
+        <ImageButton
+            android:id="@+id/btxml_dc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="65dp"
+            android:background="#00ff0000"
+            app:srcCompat="@drawable/btn_balloon_p_g" />
+
+        <ImageButton
+            android:id="@+id/btxml_face"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:background="#00ff0000"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/char_kokkoro_blank" />
+
+        <ImageView
+            android:id="@+id/btxml_emotion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="82dp"
+            android:background="#00ff0000"
+            app:srcCompat="@drawable/char_emotion" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="65sp"
+            android:src="@drawable/fab_3star"
+            android:visibility="invisible"
+            app:backgroundTint="#ffffff"
+            app:fabCustomSize="50dp"
+            app:tint="@null"
+            app:elevation="6dp"
+            app:pressedTranslationZ="12dp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="165dp"
+            android:layout_marginRight="15sp"
+            android:src="@drawable/fab_peco"
+            android:visibility="invisible"
+            app:fabCustomSize="50dp"
+            app:backgroundTint="#ffffff"
+            app:elevation="6dp"
+            app:tint="@null"
+            app:pressedTranslationZ="12dp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="115dp"
+            android:layout_marginRight="15sp"
+            android:src="@drawable/fab_karyl"
+            android:visibility="invisible"
+            app:fabCustomSize="50dp"
+            app:backgroundTint="#ffffff"
+            app:elevation="6dp"
+            app:tint="@null"
+            app:pressedTranslationZ="12dp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="65dp"
+            android:layout_marginRight="15sp"
+            android:src="@drawable/fab_kokkoro"
+            android:visibility="invisible"
+            app:backgroundTint="#ffffff"
+            app:fabCustomSize="50dp"
+            app:tint="@null"
+            app:elevation="6dp"
+            app:pressedTranslationZ="12dp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="15sp"
+            android:background="#00ff0000"
+            android:src="@drawable/fab_button"
+            app:tint="@null"
+            app:fabSize="normal" />
+
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pirconevigate">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_item_31805"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon_item_31805"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Pirconevigate">
+
+
+        <service
+            android:name=".Recognition"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.speech.RecognitionService" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".Peco3starActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Karyl3starActivity"
+            android:exported="true" />
+
+        <activity
+            android:name="com.example.pirconevigate.IntroActivity"
+            android:exported="true"
+            android:launchMode="singleTask"> <!-- 런치 모드 : 싱글태스크 is 홈 런처로 구동 -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" /> <!-- 런처로 구동 -->
+                <category android:name="android.intent.category.HOME" /> <!-- 런처로 구동 -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".MainKokkoroActivity" />
+
+        <activity android:name=".MainKarylActivity" />
+        <activity android:name=".MainPecoActivity" />
+        <activity android:name=".Kokkoro3starActivity" />
+    </application>
+
+</manifest>
